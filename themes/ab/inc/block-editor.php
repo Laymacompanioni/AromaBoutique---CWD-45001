@@ -7,9 +7,9 @@
 function ab_enqueue_block_editor_assets() {
     wp_enqueue_script(
         'block-editor-script',
-        get_template_directory_url(). '/assets/js/block-editor.js',
+        get_template_directory_uri() . '/assets/js/block-editor.js',
         array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
-        filemtime( get_template_directory(). '/assets/js/block-editor.js', )
+        filemtime( get_template_directory() . '/assets/js/block-editor.js' )
     );
 }
-add_action( 'enqueue_block_editor_assets', 'ab_myguten_enqueue' );
+add_action( 'enqueue_block_editor_assets', 'ab_enqueue_block_editor_assets' );
