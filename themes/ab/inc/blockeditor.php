@@ -4,12 +4,12 @@
  *
  * @package Aroma_Boutique
  */
-function myguten_enqueue() {
+function ab_enqueue_block_editor_assets() {
     wp_enqueue_script(
-        'myguten-script',
-        plugins_url( 'myguten.js', __FILE__ ),
+        'block-editor-script',
+        get_template_directory_url(). '/assets/js/blockeditor.js',
         array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
-        filemtime( plugin_dir_path( __FILE__ ) . '/myguten.js' )
+        filemtime( get_template_directory(). '/assets/js/blockeditor.js', )
     );
 }
-add_action( 'enqueue_block_editor_assets', 'myguten_enqueue' );
+add_action( 'enqueue_block_editor_assets', 'ab_myguten_enqueue' );
