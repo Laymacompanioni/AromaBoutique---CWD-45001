@@ -16,6 +16,26 @@
                 "name": "White",
                 "slug": "white",
                 "color": "#ffffff"
+            },
+            {
+                "name": "Very Dark Gray",
+                "slug": "very dark gray",
+                "color": "#010101"
+            },
+            {
+                "name": "Pale Soft Pink",
+                "slug": "pale soft pink",
+                "color": "#FCD8D4"
+            },
+            {
+                "name": "Light Desert Sand",
+                "slug": "light desert sand",
+                "color": "#F5C6AA"
+            },
+            {
+                "name": "Nutmeg",
+                "slug": "nutmeg",
+                "color": "#814A29"
             }
         ]
     }
