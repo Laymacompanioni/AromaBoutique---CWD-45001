@@ -1,6 +1,6 @@
 <?php 
 /**
- * Functions which enhance the theme by hooking into WordPress
+ * Functions which enhance the theme by using the block editor into WordPress
  *
  * @package Aroma_Boutique
  */
