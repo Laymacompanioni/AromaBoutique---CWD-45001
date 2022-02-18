@@ -153,4 +153,4 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * Block Editor.
  */
-require get_template_directory() . '/inc/blockeditor.php';
+require get_template_directory() . '/inc/block-editor.php';
