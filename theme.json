@@ -1,20 +1,23 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
     "version": 2,
     "settings": {
-        "color": {
-            "palette": [
-                {
-                    "name": "Black",
-                    "slug": "black",
-                    "color": "#000000"
-                },
-                {
-                    "name": "White",
-                    "slug": "white",
-                    "color": "#ffffff"
-                }
-            ]
-        }
+    "color": {
+        "custom": false,
+        "defaultPalette": false,
+        "palette": [
+            {
+                "name": "Black",
+                "slug": "black",
+                "color": "#000000"
+            },
+
+            {
+                "name": "White",
+                "slug": "white",
+                "color": "#ffffff"
+            }
+        ]
+    }
     }
 }
