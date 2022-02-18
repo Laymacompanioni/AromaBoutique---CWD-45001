@@ -88,7 +88,7 @@ function ab_setup() {
 		)
 	);
 }
-add_theme_support( 'wp-block-styles' );
+// add_theme_support( 'wp-block-styles' );
 
 add_action( 'after_setup_theme', 'ab_setup' );
 
