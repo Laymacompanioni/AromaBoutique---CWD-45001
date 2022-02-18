@@ -1,1 +1,4 @@
-console.log('block editor');
+wp.blocks.registerBlockStyle( 'core/quote', {
+    name: 'fancy-quote',
+    label: 'Fancy Quote',
+} );
