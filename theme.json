@@ -38,6 +38,10 @@
                 "color": "#814A29"
             }
         ]
+    },
+    "layout": {
+        "contentSize": "1000px",
+        "wideSize": "1200px"
     }
-    }
+}
 }
