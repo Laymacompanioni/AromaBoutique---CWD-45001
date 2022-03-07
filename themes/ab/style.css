@@ -32,8 +32,14 @@ ul{
 }
 a{
     float: left;
+    text-decoration: none;
+
 }
 /* footer */
+ul#menu-footer-1 {
+    justify-content: space-between;
+    font-size: 20pt;
+}
 .site-info {
     margin-top: 100%;
 }
