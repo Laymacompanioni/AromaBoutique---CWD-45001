@@ -33,6 +33,13 @@ ul{
 a{
     float: left;
 }
+/* footer */
+.site-info {
+    margin-top: 100%;
+}
+ul.products.columns-4 {
+    background: none;
+}
 /* Homepage topsellers */
 figcaption {
     text-align: center;
