@@ -22,3 +22,21 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
+/* header */
+ul{
+    list-style: none;
+    background-color: #FCD8D4;
+    display: flex;
+    height: 50px;
+
+}
+a{
+    float: left;
+}
+/* Homepage topsellers */
+figcaption {
+    text-align: center;
+}
+div#block-067f3b55-c8d4-4d6a-a578-2a19a19b9b1c {
+    padding: 20px;
+}
