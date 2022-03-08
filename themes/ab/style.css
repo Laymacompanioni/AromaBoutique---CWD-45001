@@ -23,6 +23,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
 /* header */
+/* nav icons */
+img.menu-image.menu-image-title-hide {
+    width: 24px;
+    height: 24px;
+}
 ul{
     list-style: none;
     background-color: #FCD8D4;
@@ -40,6 +45,7 @@ a{
     text-decoration: none;
     color: #010101;
 }
+
 /* footer */
 ul#menu-footer-1 {
     justify-content: space-between;
