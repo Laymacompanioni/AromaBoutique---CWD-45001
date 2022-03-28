@@ -64,7 +64,10 @@ figcaption {
 div#block-067f3b55-c8d4-4d6a-a578-2a19a19b9b1c {
     padding: 20px;
 }
-
+/* removing page titles */
+h1.entry-title {
+    display: none;
+}
 article#post-3 {
     margin-left: 10px;
 }
