@@ -51,6 +51,11 @@ ul#menu-footer-1 {
     justify-content: space-between;
     font-size: 20pt;
 }
+@media only screen and (max-width: 600px) {
+    ul#menu-footer-1 {
+      min-width: 100%;
+    }
+  }
 .site-info {
     margin-top: 100%;
 }
