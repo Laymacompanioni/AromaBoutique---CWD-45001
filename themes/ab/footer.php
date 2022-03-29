@@ -34,7 +34,7 @@ while( $recipe_query -> have_posts() ) {
 <div class="posts-area">
 	<?php
 	the_featured_Image();
-	the_title();
+	the_title('<h3>', '</h3>');
 	the_excerpt();
 	the_post_link();
 	?>
