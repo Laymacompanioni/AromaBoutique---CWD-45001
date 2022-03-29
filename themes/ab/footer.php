@@ -14,7 +14,31 @@
 
 <footer id="colophon" class="site-footer">
 
+<?php
+$recipe_args = array(
+	'post_type'              => array('ab_recipe'), 
+    'post_status'            => ('publish'), 
+    'posts_per_page'         => 3, 
+);
+$recipe_query = new WP_Query ( $recipe_args  );
+?>
 
+<?php
+if ($recipe_query ->have_posts() ) {
+while( $recipe_query -> have_posts() ) {
+	$recipe_query ->the_posts();
+	}
+	wp_reset_postdata();
+} 
+?> 
+<div class="posts-area">
+	<?php
+	the_featured_Image();
+	the_title();
+	the_excerpt();
+	the_post_link();
+	?>
+</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ab' ) ); ?>">
 				<?php
