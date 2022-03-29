@@ -79,3 +79,7 @@ article#post-3 {
 article#post-110 {
     margin-left: 10px;
 }
+/* table style */
+table, th, td {
+    border: 1px solid;
+  }
